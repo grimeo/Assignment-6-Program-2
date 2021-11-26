@@ -5,3 +5,7 @@
 # Let the user answer and evaluate if the user has the correct answer
 # The program will ask the user 10 addition operation
 # Display the result summary of the 10 operations (ex 9/10)
+
+# generate number and print to answer
+# if correct score++ 
+# print score
