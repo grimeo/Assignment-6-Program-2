@@ -12,4 +12,28 @@
 
 import random
 
-print(random.randint(0,99))
+# declaration of variables
+score = 0
+n1 = 0
+n2 = 0 
+correctAnswer = 0
+userAnswer = 0
+
+for x in range(10):
+
+    # assign random ints to n1 and n2
+    n1 = random.randint(0,99)
+    n2 = random.randint(0,99)
+
+    # addition
+    correctAnswer = n1 + n2
+
+    # ask the user  
+    userAnswer = int(input("Solve: " + str(n1) +" + "+ str(n2) + " = "))
+
+    # check if the user's answer is correct
+    if correctAnswer == userAnswer:
+        score += 1
+        print("correct sis " + str(score))
+
+print("Result Summary: " + str(score) + "/10")
