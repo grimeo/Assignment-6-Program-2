@@ -9,3 +9,7 @@
 # generate number and print to answer
 # if correct score++ 
 # print score
+
+import random
+
+print(random.randint(0,99))
